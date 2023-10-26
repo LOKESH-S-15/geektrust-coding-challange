@@ -1,0 +1,40 @@
+.productCardContainer{
+    min-width: 250px;
+    max-width: 300px;
+    min-height: 195px;
+    max-height: 400px;
+    padding: 16px 12px 12px 12px;
+  
+   
+    box-shadow:  0px 0px 2px 2px rgb(0, 0, 0, 0.1);
+
+}
+.productCardImg{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(56, 52, 52);
+
+    
+}
+.productCardButtomSection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 14px 0px 0px 24px ;
+    color:rgb(49, 46, 46) ;
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+.productCardPrice{
+    
+}
+
+.addToCartBtn{
+    color: antiquewhite;
+    background-color: rgb(49, 46, 46);
+    border: none;
+    height: 24px;
+    width: 90px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.productItemsInnerContanier{
+    display: flex;
+    justify-content: center;
+    padding: 15px !important;
+    
+    
+}
+.productItemsInnerWraper{
+    overflow-y: scroll;
+    height: 70vh;
+}

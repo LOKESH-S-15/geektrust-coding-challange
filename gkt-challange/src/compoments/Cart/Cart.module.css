@@ -1,0 +1,37 @@
+.cartContainer{
+    padding: 1.5rem;
+}
+.cartProductsContainer{
+    margin-left:3rem ;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 430px;
+    min-width: 300px;
+    
+}
+.CartBottomContainer{
+    margin-top: 1rem;
+    margin-left:3rem ;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.1); 
+    display: flex;
+    max-width: 430px;
+    min-width: 300px;
+    justify-content: center;
+
+}
+@media screen and (max-width: 400px){
+    .cartProductsContainer{
+      margin-left: 0px;
+    
+      padding: 5px;
+    }
+    .CartBottomContainer{
+        margin-left: 0px;
+    }
+}
